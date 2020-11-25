@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="PEKS学习总结什么是群一、定义定义1 设G是定义了一个二元运算+的集合，如果这个运算满足下列性质：  （1）封闭性——如果a和b都属于G，则a+b也属于G。   （2）结合律——对于G中的任意元素a、b和c，都有$(a+b)+c&#x3D;a+(b+c)$成立。   （3）单位元——G中存在元素e，对于G中任意元素a，都有$a+e&#x3D;e+a&#x3D;a$成立。   （4）逆元——对于G中任意元素a，G中都存在元素$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/2020/11/18/PEKS/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="PEKS学习总结什么是群一、定义定义1 设G是定义了一个二元运算+的集合，如果这个运算满足下列性质：  （1）封闭性——如果a和b都属于G，则a+b也属于G。   （2）结合律——对于G中的任意元素a、b和c，都有$(a+b)+c&#x3D;a+(b+c)$成立。   （3）单位元——G中存在元素e，对于G中任意元素a，都有$a+e&#x3D;e+a&#x3D;a$成立。   （4）逆元——对于G中任意元素a，G中都存在元素$">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-11-18T07:19:25.887Z">
+<meta property="article:modified_time" content="2020-11-05T09:40:07.207Z">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-PEKS" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/11/18/PEKS/" class="article-date">
+  <time datetime="2020-11-18T07:19:25.887Z" itemprop="datePublished">2020-11-18</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="PEKS学习总结"><a href="#PEKS学习总结" class="headerlink" title="PEKS学习总结"></a>PEKS学习总结</h1><h2 id="什么是群"><a href="#什么是群" class="headerlink" title="什么是群"></a>什么是群</h2><h3 id="一、定义"><a href="#一、定义" class="headerlink" title="一、定义"></a>一、定义</h3><p><strong>定义1</strong> 设G是定义了一个二元运算+的集合，如果这个运算满足下列性质：</p>
+<blockquote>
+<p>（1）<strong>封闭性</strong>——如果a和b都属于G，则a+b也属于G。</p>
+</blockquote>
+<blockquote>
+<p>（2）<strong>结合律</strong>——对于G中的任意元素a、b和c，都有$(a+b)+c=a+(b+c)$成立。</p>
+</blockquote>
+<blockquote>
+<p>（3）<strong>单位元</strong>——G中存在元素e，对于G中任意元素a，都有$a+e=e+a=a$成立。</p>
+</blockquote>
+<blockquote>
+<p>（4）<strong>逆元</strong>——对于G中任意元素a，G中都存在元素$a’$，使得$a+a’=a’+a=e$成立。G就叫作一个群，记为（G，+）。</p>
+</blockquote>
+<p>如果这里的运算+是加法运算，则称G为<strong>加法群</strong>；如果这里的运算+是乘法运算，则称G为<strong>乘法群</strong>。如果一个群中的元素是有限的，则称这个群是一个<strong>有限群</strong>；否则称这个群是一个<strong>无限群</strong>。有限群中元素的个数称为<strong>群的阶</strong>。</p>
+<blockquote>
+<p>例：集合｛0，1｝关于xor运算是群，阶为2</p>
+</blockquote>
+<blockquote>
+<p>封闭性：0 xor 1 = 1属于该群</p>
+</blockquote>
+<blockquote>
+<p>结合律：(0 xor 1) xor 0 = 1 = 0 xor (1 xor 0)</p>
+</blockquote>
+<blockquote>
+<p>单位元为0：0 xor 0 = 0，0 xor 1 = 1</p>
+</blockquote>
+<blockquote>
+<p>逆元为1：1 xor 0 = 1，1 xor 1 = 0</p>
+</blockquote>
+<blockquote>
+<p>又如：自然数集合N=｛1，2，3…｝对于通常的加法封闭且满足结合律，但不存在左单位元和左逆元，因此对于加法不是群。</p>
+</blockquote>
+<p>如果群（G，+）中的运算+还满足交换律，即对G中的任意元素a和b，都有$a+b=b+a$成立，则称G为一个<strong>交换群</strong>或<strong>Abel群</strong>，例如整数关于加法的运算（Z，+）就为交换群。</p>
+<p>在群中定义求幂运算为重复使用群中的运算，如$a^4=a+a+a+a$。规定$a^0=e$为单位元。如果一个群的所有元素都是a的幂ak，则称这个群是一个循环群，这里的k是整数。a也被称为这个群的生成元。</p>
+<blockquote>
+<p>例：整数加法群是一个循环群，1是生成元，每一个元素都是1的幂，如：</p>
+</blockquote>
+<blockquote>
+<p>$4=1^{4}=1+1+1+1$</p>
+</blockquote>
+<blockquote>
+<p>$-3=1^{-3}=(-1)+(-1)+(-1)$</p>
+</blockquote>
+<blockquote>
+<p>而且规定$0=1^0$，即0为0个1相加。</p>
+</blockquote>
+<p>（注：定义中的“+”并不代表具体的加法，而是抽象的加法——代表一种代数运算）</p>
+<p><strong>定义2</strong> 给定群G中元素a，称满足$a^i=e$的最小正整数i为元素a的阶。</p>
+<h3 id="二、群的基本性质"><a href="#二、群的基本性质" class="headerlink" title="二、群的基本性质"></a>二、群的基本性质</h3><blockquote>
+<p>（1）左逆元同时也是右逆元，即对于$a,b \in G$，$b+a=e$，则$a+b=e$。</p>
+</blockquote>
+<blockquote>
+<p>（2）左单位元同时也是右单位元，即如果对于所有的$a \in G$有$ea=e$，则对于所有的$a \in G$也有$ea=e$。</p>
+</blockquote>
+<blockquote>
+<p>（3）单位元是唯一的。</p>
+</blockquote>
+<blockquote>
+<p>（4）逆元是唯一的。</p>
+</blockquote>
+<h2 id="双线性映射"><a href="#双线性映射" class="headerlink" title="双线性映射"></a>双线性映射</h2><p>抽象意义的双线性映射描述如下：</p>
+<p>设$G_1,G_2$都是阶为$p$的循环群，$p$是素数。如果映射$e: G_1 \times G_1 \to G_2$ 满足以下性质：</p>
+<blockquote>
+<p><strong>（1）双线性性。</strong><br>对于任意$a,b \in Z_p$和$R,S \in G_1$，有$e(R^a, S^b) = e(R, S)^{ab}$；</p>
+</blockquote>
+<blockquote>
+<p><strong>（2）非退化性。</strong><br>存在$R,S\in G_1$，使得$e(R, S) \ne 1_{G_2}$。这里$1_{G_2}$代表$G_2$群的单位元；</p>
+</blockquote>
+<blockquote>
+<p><strong>（3）可计算性。</strong><br>存在有效的算法对任意的$R,S \in G_1$，计算$e(R, S)$的值。</p>
+</blockquote>
+<p>那么称e是一个双线性映射。</p>
+<p>双线性映射可以通过有线域上的超椭圆曲线上的Tate对或Weil对来构造。</p>
+<h1 id="双线性配对（Bilinear-Pairing-也叫双线性映射）在密码学中的应用"><a href="#双线性配对（Bilinear-Pairing-也叫双线性映射）在密码学中的应用" class="headerlink" title="双线性配对（Bilinear Pairing, 也叫双线性映射）在密码学中的应用"></a>双线性配对（Bilinear Pairing, 也叫双线性映射）在密码学中的应用</h1><h2 id="双线性配对在零知识证明中的应用"><a href="#双线性配对在零知识证明中的应用" class="headerlink" title="双线性配对在零知识证明中的应用"></a>双线性配对在零知识证明中的应用</h2><p>正如Vitalik Buterin指出的，配对可以用于验证一个数学过程是否正确执行，这也是配对在zk-SNARK中的用途。例如，假设我声称自己知道一个满足以下二次方程的数值：<br>$$ x^2-x-42=0 $$</p>
+<p>为了说服你我的确知道上述方程的一个解，一个办法就是告诉你<br>我知道的这个解，然后你自己带入上述方程去验证。另一个办法<br>就是我不告诉你这个具体的解是多少，但是使用椭圆曲线上的配对<br>进行验证。</p>
+<p>首先注意，如果：<br>$$e(G,G)^K=1$$</p>
+<p>那么k要么是0，要么是群的阶的倍数，因此如果以下等式成立，我们<br>就可以确定二次方程成立：<br>$$e(G,G)^{x^2-x-42}=1$$<br>由于$x^2-x-42$可以为0或目标群的阶的倍数， 因此我们需要更多x的信息来判断x的确是0，这一问题在另一篇文章已经介绍过了。</p>
+<p>利用双线性，我们可以将上述等式重写为：</p>
+<p>$$e(G,G)^{x^2} \cdot e(G,G)^{-x} \cdot e(G,G)^{-42}=1$$</p>
+<p>进一步整理：</p>
+<p>$$e(xG,xG) \cdot e(xG,-G) \cdot e(G,-42G)=1$$</p>
+<p>现在，不需要验证原始的二次方程成立，只需要验证上面这个配对方程成立即可。<br>我不需要提供x的具体数值，只需要告诉验证人xG就可以了 —— 这隐藏了真实的x，<br>同时也让验证人可以验证我的x的确让等式成立。</p>
+<h2 id="Boneh的PEKS方案"><a href="#Boneh的PEKS方案" class="headerlink" title="Boneh的PEKS方案"></a>Boneh的PEKS方案</h2><p>在 2004 年, Boneh 等人首次提出了公钥可搜索加密的概念, 并给出了基于双线性对的构造方案,其安全性是基于 BDH(Bilinear Diffie-Hellman)困难性问题。该方案以邮件系统为应用背景, 解决了加密邮件的路由分发问题。</p>
+<p>Boneh 等人的具体构造方案是基于双线性对$e: G_1 \times G_1 -&gt;G_2$构造的, 其中 $G_1$、$G_2$ 的阶均为$p$。同时该方案还需要两个哈希函数$H_1:{0,1}^* -&gt;G_1$以及$H_2:G_2-&gt;{0,1}^{logp}$。该方案包括 4 个概率多项式时间算法, 具体构造如下: </p>
+<p>(1) $KeyGen(s):$该算法以一个安全参数$s$作为输入, 随机选取$\alpha \in Z^*<em>p$以及群$G_1$和生成元$g$ , 输出公钥$A_{pub}=[g,h=g^{\alpha}]$, 私钥$A</em>{priv}=\alpha$。</p>
+<p>(2)$PEKS(A_{pub}, w):$随机选取$r \in Z^*_p$ , 计算$t=e(H_1(w),h^r) \in G_2$, 输出关键词密文$C_w=[g^r, H_2(t)]$。</p>
+<p>(3) $Trapdoor(A_{priv},w’):$输出陷门信息$T_{w’}=H_1(w’)^{\alpha} \in G_1$。</p>
+<p>(4) $Test(A_{pub}, C_w, T_{w’}):$令$C_w=[A,B]$ , 判断等式$H_2(e(T_{w’},A))=B$是否成立。若成立则输出1, 否则输出 0。</p>
+<p>该 PEKS 方案存在以下不足之处:</p>
+<blockquote>
+<p>(1) 检索效率低, 由于该方案是基于双线性对实现的, 因此其计算开销较大, 不适合用于海量数据的检索。</p>
+</blockquote>
+<blockquote>
+<p>(2) 该方案的陷门要在安全信道中传递, 即接收者与服务器之间需要建立一条安全信道, 来避免攻击者截获到陷门信息。</p>
+</blockquote>
+<blockquote>
+<p>(3) 不能抵御离线关键词猜测攻击, 由于关键词空间远小于密钥空间, 因此攻击者可以通过暴力猜测的方式轻松破解该方案。</p>
+</blockquote>
+<h3 id="使用python实现Boneh的PEKS"><a href="#使用python实现Boneh的PEKS" class="headerlink" title="使用python实现Boneh的PEKS"></a>使用python实现Boneh的PEKS</h3>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/11/18/PEKS/" data-id="ckhn2rxe50001okwugmwrch7x" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2020/11/10/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Hello World</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/11/18/PEKS/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/10/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
